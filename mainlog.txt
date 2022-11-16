@@ -1,5 +1,0 @@
--- You called function div 
--- Arguments are: ((6, 3), {}) 
--- Date and time of calling this fucntion is : 2022-11-16 01:54:32.196293 
--- Result is: Your two numbers are --> 6 and 3
-Division --> 2.0

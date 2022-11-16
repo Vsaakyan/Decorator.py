@@ -1,8 +1,4 @@
-import os
 from debug_utils import logger
-
-
-#def test1():
 
 
 @logger
@@ -11,19 +7,25 @@ def hello_world():
 
 
 @logger
-def summator(a, b):
+def summator():
+    a = int(input('Enter your two numbers for sum:\n'))
+    b = int(input())
     return f'Your two numbers are --> {a} and {b}\nSum --> {a + b}'
 
 
 @logger
-def div(a, b):
+def div():
+    a = int(input('Enter your two numbers for division:\n'))
+    b = int(input())
     return f'Your two numbers are --> {a} and {b}\nDivision --> {a / b}'
 
 
 if __name__ == '__main__':
     hello_world()
-    summator(2, 3)
-    div(6, 3)
+    summator()
+    div()
+
+
 
 
 
