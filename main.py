@@ -1,4 +1,11 @@
+import os
 from debug_utils import logger
+
+
+def test_1():
+    path = 'mainlog.txt'
+    if os.path.exists(path):
+        os.remove(path)
 
 
 @logger
@@ -21,6 +28,7 @@ def div():
 
 
 if __name__ == '__main__':
+    test_1()
     hello_world()
     summator()
     div()
