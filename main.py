@@ -8,19 +8,19 @@ def test_1():
         os.remove(path)
 
 
-@logger
+@logger(path='mainlog.txt')
 def hello_world():
     return 'Hello World'
 
 
-@logger
+@logger(path='mainlog.txt')
 def summator():
     a = int(input('Enter your two numbers for sum:\n'))
     b = int(input())
     return f'Your two numbers are --> {a} and {b}\nSum --> {a + b}'
 
 
-@logger
+@logger(path='mainlog.txt')
 def div():
     a = int(input('Enter your two numbers for division:\n'))
     b = int(input())

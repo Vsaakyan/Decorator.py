@@ -1,14 +1,14 @@
 -- YOU CALLED FUNCTION: hello_world 
 -- Arguments are: ((), {}) 
--- Date and time of calling this fucntion is : 2022-11-17 17:32:33.008547 
+-- Date and time of calling this fucntion is : 2022-11-22 21:12:02.416250 
 -- Result is: Hello World
 -- YOU CALLED FUNCTION: summator 
 -- Arguments are: ((), {}) 
--- Date and time of calling this fucntion is : 2022-11-17 17:32:36.820897 
--- Result is: Your two numbers are --> 5 and 3
-Sum --> 8
+-- Date and time of calling this fucntion is : 2022-11-22 21:12:04.972023 
+-- Result is: Your two numbers are --> 4 and 5
+Sum --> 9
 -- YOU CALLED FUNCTION: div 
 -- Arguments are: ((), {}) 
--- Date and time of calling this fucntion is : 2022-11-17 17:32:38.560166 
+-- Date and time of calling this fucntion is : 2022-11-22 21:12:07.177827 
 -- Result is: Your two numbers are --> 6 and 3
 Division --> 2.0
